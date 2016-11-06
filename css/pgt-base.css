@@ -1,0 +1,118 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: "proxima-nova", helvetica, arial, sans-serif;
+}
+
+// Headings
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &:first-child{
+    margin-top: 0;
+  }
+}
+
+h1, .h1, .jumbotron h1{  font-size: 34px;  }
+h2, .h2{  font-size: 30px;  }
+h3, .h3{  font-size: 26px;  }
+h4, .h4{  font-size: 22px;  }
+h5, .h5{  font-size: 20px;  }
+h6, .h6{  font-size: 18px;  }
+
+.page-header{
+  border: 0;
+}
+
+.subtitle{
+  font-size: 22px;
+  line-height: 1.3em;
+}
+
+p{margin-bottom: 20px; font-weight: 300;}
+
+p{
+  .btn{margin-bottom: 20px !important;}
+}
+
+
+
+li{font-weight: 300;}
+
+.field--type-text-long li{
+  margin-bottom: 10px;
+}
+
+a{
+  color: #1591d0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron p{ font-size: 18px; }
+
+.lead{
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 40px;
+  strong{font-weight: 400;}
+  @media screen and (min-width: 768px){font-size: 30px;}
+  @media screen and (min-width: 992px){font-size: 36px;}
+}
+
+.large{
+  font-size: 1.3em;
+  font-weight: 300;
+  strong{font-weight: 300;}
+}
+
+.small{
+  font-size: 0.8em;
+}
+
+.content-area{margin-bottom: 40px;}
+
+
+/*TABLET OVER RIDES*/
+@media screen and (min-width: 768px){
+
+  body{ font-size: 16px; }
+
+  h1, .h1, .jumbotron h1{  font-size: 36px;  }
+  h2, .h2{  font-size: 34px;  }
+  h3, .h3{  font-size: 32px;  }
+  h4, .h4{  font-size: 30px;  }
+  h5, .h5{  font-size: 28px;  }
+  h6, .h6{  font-size: 20px;  }
+
+  .subtitle{ font-size: 29px; }
+
+  .jumbotron p{ font-size: 18px; }
+
+}
+
+/* DESKTOP OVER RIDES*/
+
+@media screen and (min-width: 992px){
+
+  body{ font-size: 17px; }
+
+  h1, .h1, .jumbotron h1{  font-size: 42px;  }
+  h2, .h2{  font-size: 34px;  }
+  h3, .h3{  font-size: 32px;  }
+  h4, .h4{  font-size: 30px;  }
+  h5, .h5{  font-size: 30px;  }
+  h6, .h6{  font-size: 24px;  }
+
+  .subtitle{ font-size: 30px; }
+
+  .jumbotron p{ font-size: 19px; }
+
+}
