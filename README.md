@@ -1,2 +1,2 @@
-# pgt-investors
-Base template for simple investors information portal
+# PGT Template
+Base template for creating simple investors information portal.
